@@ -120,6 +120,7 @@
     name: "update fixity"
     minute: "0"
     hour: "5"
+    day: "1"
     job: "php {{ riprap_home }}/riprap/bin/console app:riprap:check_fixity --settings={{ private_file_dir }}/riprap_config/islandora_riprap_config.yml"
 
 - name: restart apache
